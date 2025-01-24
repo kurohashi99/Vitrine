@@ -12,9 +12,7 @@ const textLinks: { label: string; href: string }[] = [
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-	{ label: 'GitHub', href: 'https://github.com/kurohashi99', icon: 'github-logo' },
-	{ label: 'Linkedin', href: 'https://www.linkedin.com/in/hopecadidat', icon: 'linkedin-logo' },
-	{ label: 'Instagram', href: 'https://www.instagram.com/fumtsi/', icon: 'instagram-logo' },
+	
 ];
 
 /** Test if a link is pointing to the current page. */
@@ -29,8 +27,8 @@ const isCurrentPage = (href: string) => {
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
-			Moutsita Fred-Espoir Fum'tsi
+			<img src="/assets/logo.jpeg" alt="Logo Maison d’Accueil Eliora" class="logo" />
+						Maison d’Accueil Eliora
 		</a>
 		<menu-button>
 			<template>

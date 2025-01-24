@@ -1,14 +1,13 @@
 ---
-title: Dev
+title: Renforcer la citoyenneté de notre association Offrir des bases solides et un avenir prometteur.
 publishDate: 2025-01-10 00:00:00
-img: /assets/cjavocat.PNG
-img_alt: voir avocats
+img: /assets/donneko.jpg
+img_alt: voir enfants
 description: |
-  Ce site vitrine a été conçu en parfaite adéquation avec les besoins du client, des fonctionnalité basique, respect de la charte graphique.
+  Eliora Association est au service des enfants orphelins et de leurs proches, en respectant leurs droits et nos valeurs fondatrices : le respect, l’amour, l’éducation. Notre mission est de faire au mieux ce que nous faisons déjà et de rester constamment à l’écoute pour le bien-être des enfants et des personnes qui nous font confiance
 tags:
-  - Design
-  - Dev
-  - Réseaux
+  - Amour et Respect
+  - Esprit d’équipe
 ---
 <script>
     function openInSameTab(url) {
@@ -16,31 +15,96 @@ tags:
     }
 </script>
 
-<a href="https://cjavocats.fr" target="_blank">Visitez le site de CJ Avocats</a>
 
 
-## Development Process
+## Notre Projet Associatif 2025 – 2028
 
-#### Réunion de cadrage avec le client
+Pour les prochaines années, nous avons défini trois priorités :
+	1.	Renforcer la citoyenneté de notre association : Offrir des bases solides et un avenir prometteur.
+	2.	Développer une offre de services : Une agriculture plus inclusive pour mieux accueillir, accompagner et prendre soin des enfants.
+	3.	Construire un grand orphelinat au Congo : La Maison d’Accueil Eliora, sur un terrain que nous possédons déjà.
 
-Le processus a débuté par une série de réunions de cadrage avec le client pour comprendre leurs besoins spécifiques et définir les objectifs du projet. Cela  ma permis de créer une base solide pour la suite du développement.
+Je vous invite à découvrir l’ONG Eliora, à nous contacter et à nous rejoindre, car c’est ensemble que nous pourrons œuvrer pour le bien-être des enfants :
 
-#### Élaboration d'une feuille de route
+	« Seul on va plus vite, ensemble nous allons plus loin. »
 
-Suite aux réunions de cadrage, une feuille de route détaillée a été élaborée pour structurer les étapes du projet, définir les délais et allouer les ressources nécessaires.
+  <section class="carousel">
 
-#### Conception et prototypes
+  <div class="carousel-inner">
+        <img src="/assets/ye.jpg" alt="Image 1">
+        <img src="/assets/princess.jpg" alt="Image 2">
+        <img src="/assets/viito.jpg" alt="Image 3">
+        <img src="/assets/orphe.jpg" alt="Image 4">
+        <!-- Ajoute autant d'images que tu veux -->
+    </div>
+    <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+    <button class="next" onclick="plusSlides(1)">&#10095;</button>
 
-Une fois la direction du projet validée, j'ai conçu des maquettes et des prototypes interactifs pour illustrer la structure et le design du site. Ces prototypes ont été présentés au client pour validation.
+<style>
+    .carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
 
-#### Développement et implémentation
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
 
-Le développement a débuté conformément aux spécifications approuvées. En utilisant les meilleures pratiques de développement, j'ai implémenté les fonctionnalités requises, tout en veillant à maintenir une architecture solide et évolutive.
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    display: none; /* Pour cacher les images sauf la première */
+}
 
-#### Livraison et déploiement
+.carousel-inner img:first-child {
+    display: block; /* Afficher la première image par défaut */
+}
 
-Une fois tous les tests validés et les ajustements effectués en fonction des retours, le site a été déployé sur l'environnement de production. J'ai également assuré la formation du client pour la gestion et la mise à jour du site, tout en restant disponible pour tout support post-lancement.
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
 
-#### Conclusion
+.prev {
+    left: 10px;
+}
 
-Le projet a été livré dans les délais impartis, en respectant scrupuleusement les exigences du client. Grâce à une collaboration étroite et un suivi constant, j'ai pu aboutir à un site performant, aligné avec les objectifs du client et répondant pleinement à ses attentes. Ce projet illustre ma capacité à gérer le développement de sites web de manière professionnelle, du concept initial à la réalisation finale.
+.next {
+    right: 10px;
+}
+
+</style>
+
+<script>
+let slideIndex = 0;
+showSlides(slideIndex);
+
+// Fonction pour passer à la slide suivante automatiquement toutes les 3 secondes (3000 ms)
+setInterval(() => {
+    plusSlides(1);
+}, 3000);
+
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+    let slides = document.querySelectorAll('.carousel-inner img');
+    if (n >= slides.length) { slideIndex = 0 }
+    if (n < 0) { slideIndex = slides.length - 1 }
+    slides.forEach((slide, index) => {
+        slide.style.display = (index === slideIndex) ? 'block' : 'none';
+    });
+}
+
+</script>
+</section>

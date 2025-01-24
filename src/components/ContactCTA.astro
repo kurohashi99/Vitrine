@@ -3,13 +3,28 @@ import CallToAction from './CallToAction.astro';
 import Icon from './Icon.astro';
 ---
 
-<aside>
-	<h2>Interested in working together?</h2>
-	<CallToAction href="mailto:moutsita.fred@hotmail.com">
-		Send Me a Message
-		<Icon icon="paper-plane-tilt" size="1.2em" />
-	</CallToAction>
+<aside class="contact-info">
+    <h2>Contactez-nous</h2>
+    <div class="contact-methods">
+        <a href="https://www.instagram.com/eliora_association/" target="_blank" style="color: #C13584;">
+            <i class="fab fa-instagram"></i> Suivez-nous sur Instagram
+        </a>
+        <a href="mailto:associationeliora@gmail.com" style="color: #BB001B;">
+            <i class="fas fa-envelope"></i> Envoyez-nous un Email
+        </a>
+    </div>
+    <div class="locations">
+        <h3>Maison d’Accueil Eliora (Orphelinat)</h3>
+        <p>41, rue Compement, Intendance, Talangai / Brazzaville - République du Congo</p>
+        <p>Tel : +242 067 454 927 / +242 06 840 3254</p>
+        <p>Email : associationeliora@gmail.com</p>
+        <h3>Siège de l’ONG Eliora</h3>
+        <p>14 avenue René Boylesve, 75016 Paris</p>
+        <p>Tel : +33 7 82 11 21 62 / +33 6 51 31 93 16</p>
+        <p>Email : associationeliora@gmail.com</p>
+    </div>
 </aside>
+
 
 <style>
 	aside {

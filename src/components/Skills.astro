@@ -1,24 +1,28 @@
 ---
 import Icon from './Icon.astro';
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+<h3>Nos Valeurs</h3>
 <section class="box skills">
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Du Dev à la Prod</h2>
-		<p>Je suis un grand fan de Bootstrap, le DevOps et par dessus tout, j'aime quand un projet vas j'usquau bout.</p>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Industry Leader</h2>
-		<p>Pour moi, le travail d'équipe est la voie vers le succès, et l'amélioration continue est au cœur de mon état d'esprit.</p>
-	</div>
-	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Esprit stratégique</h2>
-		<p>Une capacité à anticiper, analyser et résoudre des problèmes.</p>
-	</div>
+    <div class="stack gap-2 lg:gap-4">
+        <i class="fas fa-heart" style="color: var(--accent-regular); font-size: 2.5rem;"></i>
+        <h2>Amour et Respect</h2>
+    </div>
+    <div class="stack gap-2 lg:gap-4">
+        <i class="fas fa-users" style="color: var(--accent-regular); font-size: 2.5rem;"></i>
+        <h2>Esprit d’équipe</h2>
+    </div>
+    <div class="stack gap-2 lg:gap-4">
+        <i class="fas fa-hands-helping" style="color: var(--accent-regular); font-size: 2.5rem;"></i>
+        <h2>Partage et Convivialité</h2>
+    </div>
+    <div class="stack gap-2 lg:gap-4">
+        <i class="fas fa-window-maximize" style="color: var(--accent-regular); font-size: 2.5rem;"></i>
+        <h2>Transparence avec nos membres et partenaires</h2>
+    </div>
 </section>
+
 
 <style>
 	.box {
