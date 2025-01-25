@@ -35,6 +35,10 @@ Je vous invite à découvrir l’ONG Eliora, à nous contacter et à nous rejoin
         <img src="/assets/princess.jpg" alt="Image 2">
         <img src="/assets/viito.jpg" alt="Image 3">
         <img src="/assets/orphe.jpg" alt="Image 4">
+        <img src="/assets/yvona.jpg" alt="Image 5">
+        <img src="/assets/yep.jpg" alt="Image 6">
+        <img src="/assets/projetde.jpg" alt="Image 7">
+        <img src="/assets/monde.jpg" alt="Image 8">
         <!-- Ajoute autant d'images que tu veux -->
     </div>
     <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
